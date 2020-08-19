@@ -37,8 +37,7 @@ https://github.com/ansible/ansible
 * Puedes utilizar terminateplaybook.yml para terminar las VMs 
 
 ## Links de interes:
-Windows: https://youtu.be/FEdXUv02Dbg
-Aws: https://youtu.be/1v-5cDuDRHI
-Links de documentacion:
-https://docs.ansible.com/ansible/latest/modules/ec2_module.html
-
+* Windows: https://youtu.be/FEdXUv02Dbg
+* Aws: https://youtu.be/1v-5cDuDRHI
+* Documentacion Ansible: https://docs.ansible.com/ansible/latest/modules/ec2_module.html
+* Documentacion boto: http://boto.cloudhackers.com/en/latest/getting_started.html
