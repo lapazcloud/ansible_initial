@@ -1,0 +1,17 @@
+bin
+include
+local
+lib
+share
+.playbook.*
+.ansible
+.bash_history
+.bashrc
+.bash_logout
+.cache
+.local
+.profile
+.viminfo
+.sudo_as_admin_successful
+.gnupg
+.ssh/

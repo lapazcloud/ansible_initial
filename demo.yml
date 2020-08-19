@@ -1,0 +1,24 @@
+---
+- name: demo book
+  hosts: servers
+  become: true
+
+  vars:
+          - MyMessage: "Welcome to Ansible Primeros pasos"
+  tasks:
+          - name: Nginx setup
+            apt: name=nginx state=present
+            tags: nginx
+            notify:
+                    -start nginx
+
+       
+          - name: index.html copy
+            template:
+                    src: index.html.my 
+                    dest: /usr/share/nginx/html/index.html 
+
+          - name: restart nginx
+            service:
+                    name: nginx
+                    state: restarted
